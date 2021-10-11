@@ -17,4 +17,16 @@
     color: #161b22;
     background-color: var(--color-white);
   }
+
+  section#about div.description picture {
+  border: 2px solid var(--color-primary-lighter);
+  background-color: var(--color-dark-gray01);
+  }
+
+  section#about div.description h4 strong {
+    background: linear-gradient(135deg, var(--color-primary-lighter), var(--color-secondary-lighter));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
