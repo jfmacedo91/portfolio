@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1220px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+header .logo {
+  width: 4.125rem;
+  height: 3.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/logo-light.svg");
+}
+
+header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+header nav a {
+  padding: 0 0.75rem;
+  border-radius: 0.5rem;
+  transition: 200ms;
+}
+  
+header nav a:hover {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+}
+
+header .social {
+  display: flex;
+  gap: 2rem;
+}
+
+header .social a {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0.75rem;
+  border-radius: 0.5rem;
+  transition: 200ms;
+}
+
+header .social a.linkedin:hover {
+  color: var(--color-white);
+  background-color: #0A66C2;
+}
+
+header .social a.github:hover {
+  color: var(--color-white);
+  background-color: #161b22;
+}
