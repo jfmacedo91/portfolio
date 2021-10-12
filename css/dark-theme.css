@@ -1,7 +1,7 @@
 @media screen and (prefers-color-scheme: dark) {
   body {
     color: var(--color-white);
-    background-color: var(--color-black);
+    background: linear-gradient(135deg, var(--color-black), var(--color-dark-gray01));
   }
 
   header .logo {
@@ -28,5 +28,9 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  section#projects {
+    color: var(--color-primary-lighter);
   }
 }

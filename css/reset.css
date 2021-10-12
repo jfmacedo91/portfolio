@@ -15,6 +15,18 @@
   --color-light-gray04: #AEB6B8;
 }
 
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: 87.50%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -66,5 +78,5 @@ body {
   width: 100%;
   min-height: 100vh;
   color: var(--color-black);
-  background-color: var(--color-white);
+  background: linear-gradient(135deg, var(--color-white), var(--color-light-gray01));
 }
