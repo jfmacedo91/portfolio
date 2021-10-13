@@ -47,6 +47,13 @@
     </section>
     <section id="projects">
       <h2>Projetos</h2>
+      <nav>
+        <button onclick="renderAllProjects()">Todos</button>
+        <button onclick="renderFilteredProjects('HTML, CSS e JS')">HTML, CSS e JS</button>
+        <button onclick="renderFilteredProjects('React')">React</button>
+        <button onclick="renderFilteredProjects('Next')">Next.js</button>
+        <button onclick="renderFilteredProjects('Styled Components')">Styled Components</button>
+      </nav>
       <div class="projects">
         <div class="project"></div>
         <div class="project"></div>
@@ -54,5 +61,6 @@
         <div class="project"></div>
       </div>
     </section>
+    <script src="/js/index.js"></script>
   </body>
 </html>

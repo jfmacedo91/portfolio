@@ -30,7 +30,28 @@
     -webkit-text-fill-color: transparent;
   }
 
-  section#projects {
+  section#projects h2 {
     color: var(--color-primary-lighter);
+  }
+
+  section#projects button {
+    color: var(--color-white);
+    background-color: #FFFFFF03;
+    box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 2px #00000099;
+    cursor: pointer;
+  }
+
+  section#projects button:hover {
+    color: var(--color-black);
+    background-color: var(--color-secondary-lighter);
+    box-shadow: inset 0 1px 1px #FFFFFFAA, 0 0 2px #00000099;
+  }
+
+  section#projects div.projects div.project {
+    box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 2px #00000099;
+  }
+
+  section#projects div.projects div.project:hover {
+    background-color: var(--color-dark-gray02);
   }
 }
