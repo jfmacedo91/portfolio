@@ -46,19 +46,15 @@
       </div>
     </section>
     <section id="projects">
-      <h2>Projetos</h2>
+      <h2>Alguns projetos</h2>
       <nav>
-        <button onclick="renderAllProjects()">Todos</button>
-        <button onclick="renderFilteredProjects('HTML, CSS e JS')">HTML, CSS e JS</button>
-        <button onclick="renderFilteredProjects('React')">React</button>
-        <button onclick="renderFilteredProjects('Next')">Next.js</button>
-        <button onclick="renderFilteredProjects('Styled Components')">Styled Components</button>
+        <button onclick="renderProjects.all()">Todos</button>
+        <button onclick="renderProjects.filtered('HTML, CSS e JS')">HTML, CSS e JS</button>
+        <button onclick="renderProjects.filtered('React')">React</button>
+        <button onclick="renderProjects.filtered('Next')">Next.js</button>
+        <button onclick="renderProjects.filtered('Styled Components')">Styled Components</button>
       </nav>
       <div class="projects">
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
       </div>
     </section>
     <script src="/js/index.js"></script>

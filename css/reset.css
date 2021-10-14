@@ -34,6 +34,10 @@
   font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   display: inline;
   font-size: 3.5rem;

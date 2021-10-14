@@ -127,8 +127,7 @@ section#projects button {
   border-radius: 0.5rem;
   border: none;
   color: var(--color-black);
-  background-color: #FFFFFF03;
-  box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 10px -5px var(--color-secondary);
+  background-color: var(--color-light-gray01);
   cursor: pointer;
   transition: 200ms;
 }
@@ -136,27 +135,78 @@ section#projects button {
 section#projects button:hover {
   color: var(--color-white);
   background-color: var(--color-secondary);
-  box-shadow: inset 0 1px 1px #00000066, 0 0 10px -5px var(--color-secondary);
 }
 
 section#projects div.projects {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  height: 41rem;
   margin: 2rem 0;
 }
 
 section#projects div.projects div.project {
+  position: relative;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
-  height: 20rem;
+  height: 20.5rem;
   border-radius: 0.5rem;
-  background-color: #FFFFFF03;
-  box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 10px -5px var(--color-secondary);
+  background-color: var(--color-light-gray01);
+  box-shadow: 0 0 5px var(--color-white);
   transition: 200ms;
 }
 
 section#projects div.projects div.project:hover {
-  background-color: var(--color-light-gray01);
+  background-color: var(--color-white);
+}
+
+section#projects div.projects div.project p {
+  padding: 1rem;
+}
+
+section#projects div.projects div.project img {
+  width: 100%;
+  height: 12rem;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center top;
+}
+
+section#projects div.projects div.project span.tooltip {
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  height: 12rem;
+  padding: 1rem;
+  background-color: var(--color-white);
+  visibility: hidden;
+  opacity: 0;
+  transition: 200ms;
+}
+
+section#projects div.projects div.project:hover span.tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+section#projects div.projects div.project div.buttons {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+section#projects div.projects div.project div.buttons a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  background-color: var(--color-light-gray02);
+  transition: 200ms;
+}
+
+section#projects div.projects div.project div.buttons a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
 }
