@@ -137,6 +137,11 @@ section#projects button:hover {
   background-color: var(--color-secondary);
 }
 
+section#projects button.active {
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+}
+
 section#projects div.projects {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

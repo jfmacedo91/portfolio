@@ -59,9 +59,11 @@ const projects = [
 
 const renderProjects = {
   all() {
+    activeButton("Todos")
     this.innerHTML(projects)
   },
   filtered(param) {
+    activeButton(param)
     const filteredProjects = projects.filter(project => {
       return project.techs.includes(param)
     })
@@ -88,6 +90,16 @@ const renderProjects = {
       projectsDom.innerHTML += html
     })
   }
+}
+
+function activeButton(param) {
+  const techsButtons = document.querySelectorAll("#projects button")
+  return techsButtons.forEach(button => {
+    button.classList.remove("active")
+    if(button.innerHTML.includes(param)) {
+      button.classList.add("active")
+    }
+  })
 }
 
 renderProjects.all()
