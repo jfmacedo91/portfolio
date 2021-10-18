@@ -80,4 +80,17 @@
     color: var(--color-primary-lighter);
     background-color: transparent;
   }
+
+  section#contact h2 {
+    color: var(--color-primary-lighter);
+  }
+
+  section#contact ul li p i {
+    color: var(--color-secondary-lighter);
+  }
+
+  footer {
+    border-bottom: 2px solid var(--color-primary-lighter);
+    background-color: var(--color-dark-gray02);
+  }
 }
