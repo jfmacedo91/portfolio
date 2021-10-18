@@ -68,11 +68,16 @@
   }
 
   section#projects div.projects div.project div.buttons a {
-    background-color: var(--color-dark-gray02);
+    background-color: #00000022;
   }
   
   section#projects div.projects div.project div.buttons a:hover {
     color: var(--color-black);
     background-color: var(--color-primary-lighter);
+  }
+  
+  section#projects div.projects div.project div.buttons a.repo:hover {
+    color: var(--color-primary-lighter);
+    background-color: transparent;
   }
 }

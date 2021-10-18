@@ -161,10 +161,6 @@ section#projects div.projects div.project {
   transition: 200ms;
 }
 
-section#projects div.projects div.project:hover {
-  background-color: var(--color-white);
-}
-
 section#projects div.projects div.project p {
   padding: 1rem;
 }
@@ -183,7 +179,7 @@ section#projects div.projects div.project span.tooltip {
   left: 0;
   height: 12rem;
   padding: 1rem;
-  background-color: var(--color-white);
+  background-color: var(--color-light-gray01);
   visibility: hidden;
   opacity: 0;
   transition: 200ms;
@@ -201,17 +197,28 @@ section#projects div.projects div.project div.buttons {
 }
 
 section#projects div.projects div.project div.buttons a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   width: 100%;
   padding: 0.5rem 0;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-radius: 0.5rem;
-  background-color: var(--color-light-gray02);
+  background-color: #FFFFFF66;
   transition: 200ms;
 }
 
 section#projects div.projects div.project div.buttons a:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
+}
+
+section#projects div.projects div.project div.buttons a.repo {
+  background-color: transparent;
+}
+
+section#projects div.projects div.project div.buttons a.repo:hover {
+  color: var(--color-primary);
 }

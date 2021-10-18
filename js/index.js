@@ -80,8 +80,12 @@ const renderProjects = {
           <p>${ project.name }</p>
           <img src=${ project.image } />
           <div class="buttons">
-            <a href=${ project.deployLink } target="_blank">depoy</a>
-            <a href=${ project.githubLink } target="_blank">github</a>
+            <a href=${ project.deployLink } target="_blank">
+              <i class="fas fa-eye"></i> Visitar
+            </a>
+            <a href=${ project.githubLink } target="_blank" class="repo">
+              <i class="fab fa-github"></i> Github
+            </a>
           </div>
           <span class="tooltip">${ project.description }</span>
         </div>
