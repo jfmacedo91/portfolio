@@ -80,7 +80,7 @@ section#about div.description picture {
   height: 20rem;
   border-radius: 50%;
   border: 2px solid var(--color-primary);
-  background-color: var(--color-light-gray01);
+  background-color: var(--color-light-gray);
   overflow: hidden;
 }
 
@@ -127,7 +127,7 @@ section#projects button {
   border-radius: 0.5rem;
   border: none;
   color: var(--color-black);
-  background-color: var(--color-light-gray01);
+  background-color: var(--color-light-gray);
   cursor: pointer;
   transition: 200ms;
 }
@@ -156,7 +156,7 @@ section#projects div.projects div.project {
   flex-direction: column;
   height: 20.5rem;
   border-radius: 0.5rem;
-  background-color: var(--color-light-gray01);
+  background-color: var(--color-light-gray);
   box-shadow: 0 0 5px var(--color-white);
   transition: 200ms;
 }
@@ -184,7 +184,7 @@ section#projects div.projects div.project span.tooltip {
   left: 0;
   height: 12rem;
   padding: 1rem;
-  background-color: var(--color-light-gray01);
+  background-color: var(--color-light-gray);
   visibility: hidden;
   opacity: 0;
   transition: 200ms;
@@ -258,5 +258,5 @@ footer {
   justify-content: center;
   height: 3.75rem;
   border-bottom: 2px solid var(--color-primary);
-  background-color: var(--color-light-gray02);
+  background-color: var(--color-light-gray);
 }

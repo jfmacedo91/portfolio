@@ -1,7 +1,8 @@
 @media screen and (prefers-color-scheme: dark) {
   body {
     color: var(--color-white);
-    background: linear-gradient(135deg, var(--color-black), var(--color-dark-gray01));
+    background-color: var(--color-black);
+    background-image: url('../assets/bg-dark.svg');
   }
 
   header .logo {
@@ -20,7 +21,7 @@
 
   section#about div.description picture {
   border: 2px solid var(--color-primary-lighter);
-  background-color: var(--color-dark-gray01);
+  background-color: var(--color-dark-gray);
   }
 
   section#about div.description h4 strong {
@@ -59,12 +60,12 @@
   }
 
   section#projects div.projects div.project:hover {
-    background-color: var(--color-dark-gray01);
+    background-color: var(--color-dark-gray);
     box-shadow: inset 0 1px 1px #FFFFFF22, 0 0 0 2px var(--color-primary-lighter);
   }
 
   section#projects div.projects div.project span.tooltip {
-    background-color: var(--color-dark-gray01);
+    background-color: var(--color-dark-gray);
   }
 
   section#projects div.projects div.project div.buttons a {
@@ -91,6 +92,6 @@
 
   footer {
     border-bottom: 2px solid var(--color-primary-lighter);
-    background-color: var(--color-dark-gray02);
+    background-color: var(--color-dark-gray);
   }
 }
