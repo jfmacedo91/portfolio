@@ -54,6 +54,14 @@ const projects = [
     githubLink: "https://github.com/jfmacedo91/moveit",
     description: "O move.it é uma aplicação que lembra quem passa muito tempo em frete ao computador a se exercitar que foi desenvolvido com React, Next.js e Typescript",
     techs: ["React", "Next"]
+  },
+  {
+    name: "quiz-game",
+    image: "./../assets/projects/quizgame.png",
+    deployLink: "https://quiz-game-orpin.vercel.app/",
+    githubLink: "https://github.com/jfmacedo91/quiz-game",
+    description: "O quiz-game é uma aplicação de perguntas e respostar que contabiliza os acertos e exibe um relatório com o resultados das perguntas e exibe a resposta respondida e a resposta correta.",
+    techs: ["React", "Next"]
   }
 ]
 
