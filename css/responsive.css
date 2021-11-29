@@ -1,0 +1,37 @@
+@media(max-width: 970px) {
+  section#about div.description {
+    flex-direction: column;
+  }
+
+  section#about div.description p {
+    margin-top: 2rem;
+  }
+}
+
+@media(max-width: 780px) {
+  section#projects div.projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media(max-width: 640px) {
+  header nav {
+    display: none;
+  }
+}
+
+@media(max-width: 570px) {
+  section#about div.description p strong {
+    font-size: 2.3rem;
+  }
+
+  section#projects div.projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 400px) {
+  section#projects div.projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
