@@ -78,8 +78,7 @@ section#about div.description picture {
   align-items: center;
   justify-content: center;
   width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
+  border-radius: 1rem;
   border: 2px solid var(--color-primary);
   background-color: var(--color-light-gray);
   overflow: hidden;
@@ -97,7 +96,7 @@ section#about div.description p {
 
 section#about div.description p strong {
   display: inline;
-  font-size: 3.5rem;
+  font-size: 5rem;
   line-height: 4rem;
   font-weight: 600;
   background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));

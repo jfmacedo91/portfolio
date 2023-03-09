@@ -24,7 +24,7 @@
   background-color: var(--color-dark-gray);
   }
 
-  section#about div.description h4 strong {
+  section#about div.description p strong {
     background: linear-gradient(135deg, var(--color-primary-lighter), var(--color-secondary-lighter));
     background-clip: text;
     -webkit-background-clip: text;
