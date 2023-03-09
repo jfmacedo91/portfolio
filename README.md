@@ -1,21 +1,21 @@
 <h1 align="center">
-	<img src=".github/logo.png" />
+	<img src=".github/logo1.png" />
 </h1>
 
 <p align="center">
-	<img alt="Author" src="https://img.shields.io/badge/Author-Jean%20Fernandes%20de%20Macedo-4CD992" />
-	<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/jfmacedo91/portfolio?color=4CD992" />
-  <img alt="Languase count" src="https://img.shields.io/github/languages/count/jfmacedo91/portfolio?color=4CD992" />
+	<img alt="Author" src="https://img.shields.io/badge/Author-Jean%20Fernandes%20de%20Macedo-30BF78" />
+	<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/jfmacedo91/portfolio?color=30BF78" />
+  <img alt="Languase count" src="https://img.shields.io/github/languages/count/jfmacedo91/portfolio?color=30BF78" />
 </p>
 
 ## Sobre
 
-Esse projeto foi desenvolvido com o intuito de mostrar um pouco do que eu já fiz como desenvolvedor web, as cores do dark mode e light mode são aplicadas de acordo com as preferencias de tema do usuário, para ver o deploy do projeto é só [clicar aqui!](https://upbeat-elion-85001a.netlify.app)
+Esse projeto foi desenvolvido com o intuito de mostrar um pouco do que eu já fiz como desenvolvedor web, as cores do dark mode e light mode são aplicadas de acordo com as preferencias de tema do usuário, para ver o deploy do projeto é só [clicar aqui!](https://www.jfmacedo91.com.br)
 
 
 <div align="center">
-	<img style="width: 45%; margin-right: 20px;" src=".github/dark-screen.png" />
-	<img style="width: 45%" src=".github/light-screen.png" />
+	<img style="width: 45%; margin-right: 20px;" src=".github/darkscreen.png" />
+	<img style="width: 45%" src=".github/lightscreen.png" />
 </div>
 
 ## Tecnologias utilizadas
