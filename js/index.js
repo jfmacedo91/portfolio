@@ -1,5 +1,21 @@
 const projects = [
   {
+    name: "Bikcraft",
+    image: "./../assets/projects/bikcraft.png",
+    deployLink: "https://jfmacedo91.github.io/bikcraft/",
+    githubLink: "https://github.com/jfmacedo91/bikcraft",
+    description: "O #boracodar é um projeto com varios desafios para praticar as abiolidades em frontend, com um desafio por semana.",
+    techs: ["HTML, CSS e JS"]
+  },
+  {
+    name: "#boraCodar",
+    image: "./../assets/projects/boracodar.png",
+    deployLink: "https://jfmacedo91.github.io/boracodar/",
+    githubLink: "https://github.com/jfmacedo91/boracodar",
+    description: "O Bikcraft é um ecommerce de bicicletas elétricas feitas sob demanda, com modelos diferentes para dar opções para os clientes.",
+    techs: ["HTML, CSS e JS"]
+  },
+  {
     name: "dev.finance$",
     image: "./../assets/projects/devfinances.png",
     deployLink: "https://thirsty-khorana-febd08.netlify.app",
@@ -8,20 +24,12 @@ const projects = [
     techs: ["HTML, CSS e JS"]
   },
   {
-    name: "Dropbox UI Clone",
-    image: "./../assets/projects/dropbox.png",
-    deployLink: "https://jfmacedo-clone-dropbox.netlify.app/",
-    githubLink: "https://github.com/jfmacedo91/ui-clone-dropbox",
-    description: "Homepage Dropbox responsivo desenvolvido com Typescript, React e Styled Components para fins de estudos.",
-    techs: ["React", "Styled Components"]
-  },
-  {
-    name: "LikedIn UI Clone",
-    image: "./../assets/projects/linkedin.png",
-    deployLink: "https://jfmacedo-clone-linkedin.netlify.app/",
-    githubLink: "https://github.com/jfmacedo91/ui-clone-linkedin",
-    description: "Feed LinkedIn responsivo desenvolvido com Typescript, React e Styled Components para fins de estudos.",
-    techs: ["React", "Styled Components"]
+    name: "Let Me Ask",
+    image: "./../assets/projects/letmeask.png",
+    deployLink: "https://letmeask-c5fd1.web.app/",
+    githubLink: "https://github.com/jfmacedo91/letmeask",
+    description: "Let Me Ask é uma plataforma para que criadores de conteúdo possam organizar as perguntas de sua audiência.",
+    techs: ["React", "SASS", "Typescript"]
   },
   {
     name: "ig.news",
