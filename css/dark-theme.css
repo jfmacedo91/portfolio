@@ -1,97 +1,15 @@
 @media screen and (prefers-color-scheme: dark) {
-  body {
-    color: var(--color-white);
-    background-color: var(--color-black);
-    background-image: url('../assets/bg-dark.svg');
+  :root {
+    --color-background-primary: #1A1A1A;
+    --color-background-secondary: #262626;
+    --color-background-tertiary: #333333;
+    --color-text-primary: #F2F2F2D9;
+    --color-text-secondary: #F2F2F2A6;
+    --color-text-tertiary: #F2F2F259;
+    --color-primary: #D7B546;
   }
 
-  header .logo {
-    background-image: url("/assets/logo-dark.svg");
-  }
-  
-  header nav a:hover {
-    color: var(--color-black);
-    background-color: var(--color-secondary-lighter);
-  }
-
-  header .social a.github:hover {
-    color: #161b22;
-    background-color: var(--color-white);
-  }
-
-  section#about div.description picture {
-  border: 2px solid var(--color-primary-lighter);
-  background-color: var(--color-dark-gray);
-  }
-
-  section#about div.description p strong {
-    background: linear-gradient(135deg, var(--color-primary-lighter), var(--color-secondary-lighter));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  section#projects h2 {
-    color: var(--color-primary-lighter);
-  }
-
-  section#projects button {
-    color: var(--color-white);
-    background-color: #FFFFFF03;
-    box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 2px #00000099;
-    cursor: pointer;
-  }
-
-  section#projects button:hover {
-    color: var(--color-black);
-    background-color: var(--color-secondary-lighter);
-    box-shadow: inset 0 1px 1px #FFFFFFAA, 0 0 2px #00000099;
-  }
-
-  section#projects button.active {
-    color: var(--color-black);
-    background-color: var(--color-secondary-lighter);
-    box-shadow: inset 0 1px 1px #FFFFFFAA, 0 0 2px #00000099;
-  }
-
-  section#projects div.projects div.project {
-    background-color: #FFFFFF03;
-    box-shadow: inset 0 1px 1px #FFFFFF11, 0 0 2px #00000099;
-  }
-
-  section#projects div.projects div.project:hover {
-    background-color: var(--color-dark-gray);
-    box-shadow: inset 0 1px 1px #FFFFFF22, 0 0 0 2px var(--color-primary-lighter);
-  }
-
-  section#projects div.projects div.project span.tooltip {
-    background-color: var(--color-dark-gray);
-  }
-
-  section#projects div.projects div.project div.buttons a {
-    background-color: #00000022;
-  }
-  
-  section#projects div.projects div.project div.buttons a:hover {
-    color: var(--color-black);
-    background-color: var(--color-primary-lighter);
-  }
-  
-  section#projects div.projects div.project div.buttons a.repo:hover {
-    color: var(--color-primary-lighter);
-    background-color: transparent;
-  }
-
-  section#contact h2 {
-    color: var(--color-primary-lighter);
-  }
-
-  section#contact ul li p i {
-    color: var(--color-secondary-lighter);
-  }
-
-  footer {
-    border-bottom: 2px solid var(--color-primary-lighter);
-    background-color: var(--color-dark-gray);
+  section#about::before {
+    background-image: url("./../assets/images/bg-dark.jpg");
   }
 }

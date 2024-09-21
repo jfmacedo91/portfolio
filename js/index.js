@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Bikcraft",
-    image: "./../assets/projects/bikcraft.png",
+    image: "./assets/projects/bikcraft.png",
     deployLink: "https://jfmacedo91.github.io/bikcraft/",
     githubLink: "https://github.com/jfmacedo91/bikcraft",
     description: "O #boracodar é um projeto com varios desafios para praticar as abiolidades em frontend, com um desafio por semana.",
@@ -9,7 +9,7 @@ const projects = [
   },
   {
     name: "#boraCodar",
-    image: "./../assets/projects/boracodar.png",
+    image: "./assets/projects/boracodar.png",
     deployLink: "https://jfmacedo91.github.io/boracodar/",
     githubLink: "https://github.com/jfmacedo91/boracodar",
     description: "O Bikcraft é um ecommerce de bicicletas elétricas feitas sob demanda, com modelos diferentes para dar opções para os clientes.",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     name: "dev.finance$",
-    image: "./../assets/projects/devfinances.png",
+    image: "./assets/projects/devfinances.png",
     deployLink: "https://thirsty-khorana-febd08.netlify.app",
     githubLink: "https://github.com/jfmacedo91/dev.finances",
     description: "O dev.finances é uma aplicação de controle de gastos desenvolvido somente com HTML, CSS e JS como forma de estudo das bases do desenvolvimento web com Javascript.",
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     name: "Let Me Ask",
-    image: "./../assets/projects/letmeask.png",
+    image: "./assets/projects/letmeask.png",
     deployLink: "https://letmeask-c5fd1.web.app/",
     githubLink: "https://github.com/jfmacedo91/letmeask",
     description: "Let Me Ask é uma plataforma para que criadores de conteúdo possam organizar as perguntas de sua audiência.",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     name: "ig.news",
-    image: "./../assets/projects/ignews.png",
+    image: "./assets/projects/ignews.png",
     deployLink: "https://ignews-murex-seven.vercel.app/",
     githubLink: "https://github.com/jfmacedo91/ignews",
     description: "O projeto Igews é um blog que foi desenvolvido com React, Next.js, Prismic CMS e Fauna DB durante o curso Ignite da Rocketseat com o intuito de práticar a utilização do OAuth do Github e a API de pagamentos do Stripe.",
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     name: "Aluraquiz",
-    image: "./../assets/projects/aluraquiz.png",
+    image: "./assets/projects/aluraquiz.png",
     deployLink: "https://aluraquiz-seven.vercel.app/",
     githubLink: "https://github.com/jfmacedo91/aluraquiz",
     description: "O Aluraquiz é uma aplicação de perguntas e respostas que foi desenvolvido com React, Next.js e Styled Components durante a imersão React da Alura",
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     name: "Clocker",
-    image: "./../assets/projects/clocker.png",
+    image: "./assets/projects/clocker.png",
     deployLink: "https://clocker-jfmacedo91.vercel.app/",
     githubLink: "https://github.com/jfmacedo91/clocker",
     description: "O Clocker é uma aplicação de agendamento de horários para pessoas que atendem com hora marcada desenvolvido com React, Chakra UI e Firebase",
@@ -57,7 +57,7 @@ const projects = [
   },
   {
     name: "move.it",
-    image: "./../assets/projects/moveit.png",
+    image: "./assets/projects/moveit.png",
     deployLink: "https://jfmoveit.vercel.app",
     githubLink: "https://github.com/jfmacedo91/moveit",
     description: "O move.it é uma aplicação que lembra quem passa muito tempo em frete ao computador a se exercitar que foi desenvolvido com React, Next.js e Typescript",
@@ -65,7 +65,7 @@ const projects = [
   },
   {
     name: "quiz-game",
-    image: "./../assets/projects/quizgame.png",
+    image: "./assets/projects/quizgame.png",
     deployLink: "https://quiz-game-orpin.vercel.app/",
     githubLink: "https://github.com/jfmacedo91/quiz-game",
     description: "O quiz-game é uma aplicação de perguntas e respostar que contabiliza os acertos e exibe um relatório com o resultados das perguntas e exibe a resposta respondida e a resposta correta.",
