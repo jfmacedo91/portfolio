@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Blog</h1>
-</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Jean Macedo</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/png" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/dark-theme.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <svg viewBox="0 0 129 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M58.1173 3.0542C58.1173 1.51225 56.656 0.38908 55.166 0.785803L36.3866 5.7858C35.3586 6.05952 34.6432 6.99035 34.6432 8.05419V45.3052V70.1878C34.6432 71.7442 34.0249 73.2369 32.9243 74.3375C31.8237 75.438 30.3311 76.0563 28.7746 76.0563C27.2182 76.0563 25.7255 75.438 24.6249 74.3375C24.2432 73.9558 23.9195 73.5269 23.6595 73.0646C22.9109 71.7335 21.4709 70.5466 19.9893 70.917L2.10793 75.3873C0.704836 75.7381 -0.0531244 77.2639 0.529535 78.5876C2.87485 83.9158 4.159 86.1153 8.02617 90.9362C13.529 96.439 20.9924 99.5305 28.7746 99.5305C36.5568 99.5305 44.0202 96.439 49.5231 90.9362C54.9705 85.4887 58.0549 78.1199 58.1164 70.4225L58.1173 70.1878V45.3052C58.1173 44.5345 58.2691 43.7714 58.5641 43.0594C58.859 42.3474 59.2912 41.7004 59.8362 41.1555C60.3811 40.6105 61.0281 40.1783 61.7401 39.8833C62.4521 39.5884 63.2152 39.4366 63.9859 39.4366C64.7566 39.4366 65.5197 39.5884 66.2317 39.8833C66.9437 40.1783 67.5906 40.6105 68.1356 41.1555C68.6805 41.7004 69.1128 42.3474 69.4077 43.0594C69.7026 43.7714 69.8544 44.5345 69.8544 45.3052V97.6526C69.8544 98.949 70.9054 100 72.2018 100H90.9812C92.2776 100 93.3286 98.949 93.3286 97.6526V45.3052V29.5775C93.3286 28.8068 93.4804 28.0437 93.7753 27.3317C94.0702 26.6197 94.5025 25.9727 95.0475 25.4278C95.5924 24.8828 96.2394 24.4506 96.9514 24.1556C97.6634 23.8607 98.4265 23.7089 99.1972 23.7089C99.9678 23.7089 100.731 23.8607 101.443 24.1556C102.155 24.4506 102.802 24.8828 103.347 25.4278C103.892 25.9727 104.324 26.6197 104.619 27.3317C104.914 28.0437 105.066 28.8068 105.066 29.5775V97.6526C105.066 98.949 106.117 100 107.413 100H126.192C127.489 100 128.54 98.949 128.54 97.6526V29.5775C128.54 25.7241 127.781 21.9085 126.306 18.3485C124.832 14.7885 122.67 11.5538 119.946 8.82904C117.221 6.10431 113.986 3.94294 110.426 2.46833C106.866 0.99372 103.051 0.234742 99.1972 0.234742C95.3438 0.234742 91.5282 0.993713 87.9682 2.46832C84.4082 3.94293 81.1734 6.1043 78.4487 8.82902C76.4917 10.7861 74.8253 13.0062 73.4952 15.421C72.9294 16.4482 71.7376 16.9806 70.595 16.7164C68.4327 16.2166 66.2156 15.9624 63.9859 15.9624C62.9726 15.9624 61.962 16.0149 60.9579 16.1191C59.4807 16.2724 58.1173 15.1654 58.1173 13.6803V3.0542Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./projects.html">Projetos</a>
+        <a href="./contacts.html">Contatos</a>
+        <a href="./blog.html" class="active">Blog</a>
+        <a href="./assets/resume/resume2021.pdf" target="_blank"><p>Currículo</p></a>
+      </nav>
+      <button onclick="toggleMenu()">
+        <i class="ph-bold ph-list"></i>
+      </button>
+    </header>
+    <section id="main">
+        <h2>Minhas publicações</h2>
+        <div class="cards">
+          <div class="card"></div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

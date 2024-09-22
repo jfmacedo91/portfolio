@@ -1,9 +1,11 @@
 header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-block: 1rem;
-  padding-inline: calc((100% - 1280px)/2);
+  padding-inline: calc((100% - 80rem)/2);
+  border-bottom: 0.125rem solid var(--color-background-tertiary);
   background-color: var(--color-background-primary);
 }
 
@@ -18,13 +20,25 @@ header nav {
 }
 
 header nav a {
-  padding: 0.25rem 0.75rem;
-  border-radius: 0.5rem;
+  padding-block: 0.25rem;
+  border-block: 0.125rem solid var(--color-background-primary);
   transition: 200ms;
+}
+
+header nav a.active {
+  border-bottom-color: var(--color-primary);
 }
   
 header nav a:hover {
-  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+header button {
+  display: none;
+  font-size: 2rem;
+  border: none;
+  color: inherit;
+  background: none;
 }
 
 section#about {
@@ -35,9 +49,8 @@ section#about {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  padding: 0 1rem;
   text-align: center;
-  padding-inline: calc((100% - 720px)/2);
+  padding-inline: calc((100% - 75ch)/2);
 }
 
 section#about::before {
