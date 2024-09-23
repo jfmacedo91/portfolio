@@ -64,6 +64,85 @@ section#about::before {
   z-index: -1;
 }
 
+section#about h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -1.5%;
+}
+
 section#about p {
+  color: var(--color-text-secondary);
+}
+
+section#main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.5rem calc((100% - 80rem)/2);
+  gap: 2.5rem;
+}
+
+section#main h1 {
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 2.625rem;
+  letter-spacing: -0.5%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  border: 2px solid var(--color-background-tertiary);
+  border-radius: 0.5rem;
+  background-color: var(--color-background-primary);
+  overflow: hidden;
+}
+
+.card img {
+  max-width: 100%;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+}
+
+.card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem;
+}
+
+.card .tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card .tags .tag {
+  padding: 0.125rem 0.375rem;
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 1.75%;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  background-color: var(--color-background-tertiary);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.card p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.5%;
   color: var(--color-text-secondary);
 }

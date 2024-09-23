@@ -34,24 +34,7 @@ body {
   min-height: 100vh;
   color: var(--color-text-primary);
   background-color: var(--color-background-secondary);
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 3.375rem;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2.5rem;
-  line-height: 3rem;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.75rem;
-  line-height: 2.25rem;
-  font-weight: 400;
+  overflow-y: scroll;
 }
 
 a {

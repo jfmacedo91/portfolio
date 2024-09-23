@@ -1,5 +1,9 @@
-@media(width <= 81rem) {
+@media(width <= 83rem) {
   header {
+    padding-inline: 1rem;
+  }
+
+  section#main {
     padding-inline: 1rem;
   }
 }
